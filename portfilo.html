@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet"/>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <style>
+    /* Reset default margin and padding */
+    body, h1, h2, h3, p, img {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Basic styling */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      background-color:black;
+      color: #fff;
+      padding: 60px 0;
+      animation: fadeIn 2s ease-in-out;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header img {
+      width: 150px; /* Adjust image size as needed */
+      border-radius: 50%; /* Make the image round */
+      margin-bottom: 20px; /* Add space between image and text */
+    }
+
+    header h1 {
+      font-size: 3em;
+    }
+
+    header p {
+      font-size: 1.5em;
+    }
+
+    section {
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    #about, #projects {
+      background-color: #f4f4f4;
+    }
+
+    .project {
+      margin: 20px;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .project:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      text-align: center;
+      background-color:black;
+      color: #fff;
+      padding: 20px 0;
+    }
+
+    /* Animation keyframes */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="Rohit linkedin 2.jpeg.jpg" alt="Your Image"> <!-- Replace 'your_image.jpg' with your image file -->
+  <h1>Deshmukh Rohit</h1>
+  <p>Web Developer</p>
+  <p><a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></p>
+  <p><a href="https://www.linkedin.com/in/rohit-deshmukh-4734b1298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkedin</a></p>
+</header>
+
+<section id="about">
+  <h2>About Me</h2></br>
+  <p>Welcome to my portfolio! I'm a passionate web developer and im skill full  in Java, JavaScript, CSS, HTML, Bootstrap, SQL, MongoDB, and Python, I am poised to engineer comprehensive and dynamic web solutions.
+
+    My journey in coding commenced with a profound fascination and has evolved into a dedicated pursuit of mastering the intricacies of Full Stack development. With an emphasis on Java's adaptability, I aim to seamlessly blend frontend and backend functionalities, ensuring the creation of robust and scalable applications.</p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="project">
+    <img src="project1.png" alt="Project 1" width="300" height="200">
+    <h3>Project 1</h3>
+    <p>Description of Project 1.</p>
+  </div>
+  <div class="project">
+    <img src="project2.jpg" alt="Project 2">
+    <h3>Project 2</h3>
+    <p>Description of Project 2.</p>
+  </div>
+  <!-- Add more project items as needed -->
+</section>
+
+<footer>
+  <p>&copy; 2023 Deshmukh Rohit</p>
+</footer>
+
+</body>
+</html>
